@@ -3,11 +3,21 @@ GAMMA: Angeles garcía
 BETA: Mariano Guevara
 
 a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+Para hacer eso debes:
+-Primero tener tu repo forkeado clonado localmente
+-Luego ejecutar: 
+	.git remote add upstream [url repo original]
+	.git fetch upstream 
+	.git rebase upstream/main
+Estos comandos lo que hacen basicamente es traer la informacion del repositorio original al tuyo
+-por último, haces un push para que estos cambios actualizados del repo original vayan a tu
+repo fork
+
 ------------------------------------------------------------------------------------
 b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
 c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
-
-b y c) Puede, siempre y cuando haga un fork del repositorio forkeado de gamma... 
+Misma respuesta para ambas
+Puede, siempre y cuando haga un fork del repositorio forkeado de gamma... 
 solo se puede actualizar un repositorio forkeado con el repositorio sobre el cual
 hiciste el fork, entonces si el repositorio original es de BETA y ALFA y GAMMA 
 hacen fork del repo de BETA, no pueden hacerse forks entre sí. Podrían hacerlo, si por ejemplo,
