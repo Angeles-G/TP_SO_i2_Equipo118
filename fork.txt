@@ -1,0 +1,14 @@
+GAMMA:
+-Garcia Angeles Belen 
+-viernes, 10 de noviembre de 2023 09:17:14 
+-ip: 192.168.56.1
+
+ALPHA:
+-César Pumacayo 
+-viernes, 10 de noviembre de 2023 09:36:04 
+-ip: 192.168.xx.x
+
+BETA:
+-Guevara Mariano
+-Friday, November 10, 2023 9:52:35 AM  
+-ip: 192.168.56.1
