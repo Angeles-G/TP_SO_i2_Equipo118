@@ -1,0 +1,28 @@
+ALFA: Cesar Pumacayo
+GAMMA: Angeles garcía
+BETA: Mariano Guevara
+
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+------------------------------------------------------------------------------------
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+
+b y c) Puede, siempre y cuando haga un fork del repositorio forkeado de gamma... 
+solo se puede actualizar un repositorio forkeado con el repositorio sobre el cual
+hiciste el fork, entonces si el repositorio original es de BETA y ALFA y GAMMA 
+hacen fork del repo de BETA, no pueden hacerse forks entre sí. Podrían hacerlo, si por ejemplo,
+GAMMA hace un fork del repositorio de ALFA o viceversa.
+------------------------------------------------------------------------------------
+d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
+el fork?
+
+d)No, los cambios locales que has realizado en tu repositorio no se perderán
+ necesariamente al actualizar el fork. Sin embargo, hay ocasiones en las que
+ sí, por ejemplo, si gamma modifica algo del fork.txt y luego actualiza su repo 
+forkeado de beta habiendo  este ultimo modificado este mismo archivo. En ese 
+caso lo que modifico gamma si se perdería si es diferente a lo que edito beta.
+
+------------------------------------------------------------------------------------
+
+e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
+orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos ,
