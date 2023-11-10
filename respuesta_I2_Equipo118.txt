@@ -36,3 +36,48 @@ caso lo que modifico gamma si se perdería si es diferente a lo que edito beta.
 
 e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
 orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos ,
+
+
+Beta:
+Crea repositorio con readme
+git clone a mi repositorio
+creo fork.txt
+git add .
+git commit -m "cambios de beta"
+git push origin main
+Acepta los pull request de los otros integrantes
+Actualiza los archivos con su propia informacion
+git add .
+git commit -m "cambios de beta"
+git push origin main
+Genera el archivo respuestas y sube su aporte
+git add .
+git commit -m "cambios de beta"
+git push origin main
+Acepta los pull request de los otros integrantes
+
+Alfa: 
+forkear el repo de beta
+git clone a mi repositorio
+modifico el fork.txt con nombre, apellido, ip , fecha y hora  
+git add .
+git commit -m "cambios de alfa"
+git push origin main
+agrego tareas project
+git remote add upstream https://github.com/MarianoGuevara/TP_SO_i2_Equipo118.git
+git fetch upstream 
+git rebase upstream/main
+actualizo las tareas del project done
+
+Gamma: 
+forkear el repo de beta
+git clone a mi repositorio
+modifico el fork.txt con nombre, apellido, ip , fecha y hora  
+git add .
+git commit -m "cambios de alfa"
+git push origin main
+agrego tareas project
+git remote add upstream https://github.com/MarianoGuevara/TP_SO_i2_Equipo118.git
+git fetch upstream 
+git rebase upstream/main
+actualizo las tareas del project done
